@@ -2,6 +2,10 @@ require("dotenv").config();
 let express = require("express");
 let app = express();
 
+app.get("/test", (req, res) => {
+    res.send("hello there");
+   });
+
 const sequelize = require("./db");
 
 let recording = require("./controllers/recordingcontroller");
