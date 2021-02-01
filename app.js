@@ -25,5 +25,5 @@ app.use("/user", user);
 app.use("/recording", recording);
 
 app.listen(process.env.PORT, function () {
-    console.log("App is Listenig on port 3000");
+    console.log("App is Listenig on port 3000 good luck");
 });
